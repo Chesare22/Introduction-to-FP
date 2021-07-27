@@ -1,5 +1,8 @@
 list = [1,2,3,4,5]
 
+addOne :: Int -> Int
+addOne x = x + 1
+
 listPlusOne = map addOne list
 listPlusTwo = map (+ 2) list
 listPlusThree = map (+ 3) list
@@ -17,6 +20,3 @@ main = do
   putStr "22 + 13 = "
   print (22 + 13)
 
-
-addOne :: Int -> Int
-addOne x = x + 1
