@@ -1,0 +1,4 @@
+# Haskell output
+*.hi
+*.o
+*.exe
