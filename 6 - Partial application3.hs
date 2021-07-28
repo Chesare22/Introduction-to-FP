@@ -1,7 +1,7 @@
 list = [1,2,3,4,5]
 
 addOne :: Int -> Int
-addOne x = x + 1
+addOne = (+) 1
 
 listPlusOne = map addOne list
 listPlusTwo = map (+ 2) list
