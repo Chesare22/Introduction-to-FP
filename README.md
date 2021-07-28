@@ -35,9 +35,13 @@ En la programación funcional cada función tiene un solo propósito. El _map_ m
 
 ## Aplicación parcial
 
+> :construction: Este apartado está incompleto.
+
 Supongamos que a lo largo de mi programa necesito sumarle otros valores al arreglo. Además de uno, le voy a sumar dos y tres.
 
 # Apéndice A: Efectos secundarios
+
+> :construction: Este apartado está incompleto.
 
 En la vida real, es imposible evitar los efectos secundarios. Imprimir algo en consola es un efecto secundario. El manejo de formularios tiene efectos secundarios. Redireccionar al usuario es un efecto secundario. Cambiar un elemento de tu página es un efecto secundario.
 
