@@ -1,6 +1,9 @@
 const array = [1, 2, 3, 4, 5];
 const add = (y) => (x) => x + y;
 
+// Warning: Due to JavaScript's limitations, this implementation of range will
+// throw an error with large numbers. For more information, visit:
+// https://github.com/getify/Functional-Light-JS/blob/master/manuscript/ch8.md/#stack
 const range = (start) => (end) =>
   start === end
     ? [start]
